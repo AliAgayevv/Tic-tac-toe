@@ -1,0 +1,48 @@
+.tic-tac-toe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.square {
+  border: 1px solid red;
+  float: left;
+  font-size: 40px;
+  height: 100px;
+  padding: 0px;
+  text-align: center;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  cursor: pointer;
+}
+
+.status
+{
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.restart
+{
+  appearance: none;
+	border: 1px solid #9E70EB;
+	color: #9E70EB;
+	background-color: transparent;
+	border-radius: 10rem;
+	padding: .75rem 1.5rem;
+	cursor: pointer;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .7s ease-in-out;
+}
+
+.restart:hover
+{
+  background-color: #9E70EB;
+  color: whitesmoke;
+}
